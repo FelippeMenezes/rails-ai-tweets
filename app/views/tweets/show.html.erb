@@ -8,7 +8,7 @@
     <strong>Tweet (<%= @tweet.shortened.size %>):</strong>
     <blockquote class="blockquote"><%= @tweet.shortened %></blockquote>
     <hr>
-    <strong>Original: </strong>
+    <strong>Original (<%= @tweet.long.size %>): </strong>
     <%= simple_format @tweet.long %>
     <hr>
     <%= link_to new_tweet_path, class: "btn btn-outline-light mb-4" do %>
