@@ -1,6 +1,6 @@
-<div class="container bg-light text-primary mt-5">
+<div class="container bg-primary text-white mt-5">
     <div class="d-flex justify-content-end">
-        <%= link_to new_tweet_path, class: "btn btn-primary my-2" do %>
+        <%= link_to new_tweet_path, class: "btn btn-outline-light my-2" do %>
             Create another tweet
         <% end %>
     </div>
@@ -11,7 +11,7 @@
     <strong>Original: </strong>
     <%= simple_format @tweet.long %>
     <hr>
-    <%= link_to new_tweet_path, class: "btn btn-primary mb-4" do %>
+    <%= link_to new_tweet_path, class: "btn btn-outline-light mb-4" do %>
         Create another tweet
     <% end %>
 </div>

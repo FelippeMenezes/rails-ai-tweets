@@ -1,9 +1,9 @@
-<div class="container bg-light text-primary mt-5">
+<div class="container bg-primary text-white mt-5">
     <h1 class="text-center">Text summarizer for tweets</h1>
     <hr>
     <%= simple_form_for @tweet do |f| %>
     <%= f.input :long, required: true, label: "Copy and paste, or write a long text here" %>
     <hr>
-    <%= f.button :submit, 'Create tweet', class: 'btn btn-primary my-2' %>
+    <%= f.button :submit, 'Create tweet', class: 'btn btn-outline-light my-2' %>
     <% end %>
 </div>
