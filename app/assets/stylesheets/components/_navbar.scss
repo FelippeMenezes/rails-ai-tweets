@@ -1,12 +1,12 @@
-.navbar-lewagon {
+.navbar-ai-tweets {
   justify-content: space-between;
-  background: white;
+  background: $primary;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-ai-tweets .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-ai-tweets .navbar-brand img {
   width: 40px;
 }
