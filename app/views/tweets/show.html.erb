@@ -1,0 +1,17 @@
+<div class="container mt-5">
+    <div class="d-flex justify-content-end">
+        <%= link_to new_tweet_path, class: "btn btn-primary mb-4" do %>
+            Create another tweet
+        <% end %>
+    </div>
+    <hr>
+    <strong>Tweet (<%= @tweet.shortened.size %>):</strong>
+    <blockquote class="blockquote"><%= @tweet.shortened %></blockquote>
+    <hr>
+    <strong>Original: </strong>
+    <%= simple_format @tweet.long %>
+    <hr>
+    <%= link_to new_tweet_path, class: "btn btn-primary mb-4" do %>
+        Create another tweet
+    <% end %>
+</div>
